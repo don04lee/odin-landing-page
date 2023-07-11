@@ -88,10 +88,58 @@ li {
   color: #1F2937;
   font-size: 36px;
   font-weight: bolder;
+  margin: 50px 0;
+}
+
+.content {
+  display: flex;
+  gap: 15px;
 }
 
 .boxes {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+  gap: 10px;
+}
+
+.box {
+  height: 150px;
+  width: 150px;
+  border: 5px solid #3882F6;
+  border-radius: 20px;
+}
+
+.text {
+  margin-bottom: 100px;
+  width: 150px;
+}
+
+.section-three {
+  background-color: #E5E7EB;
+}
+
+.work {
+  display: flex;
+  margin: 100px 350px;
+}
+
+.quote {
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 36px;
+  color: #1F2937;
+}
+
+.author {
+  display: flex;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  justify-content: flex-end;
 }
 
 .footer {
