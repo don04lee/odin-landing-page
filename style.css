@@ -13,12 +13,9 @@ li {
   background-color: #1F2937;
 }
 
-.header, .section-one {
-  margin: 10px 200px;
-}
-
 .section-one {
   display: flex;
+  margin: 100px 200px;
 }
 
 .links {
@@ -32,8 +29,8 @@ li {
 .placeholder {
   background-color: gray;
   color: white;
-  height: 200px;
-  width: 700px;
+  height: 250px;
+  width: 1100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,7 +40,7 @@ li {
   height: 72px;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 80px;
+  margin: 10px 200px;
 }
 
 .subtext, a {
@@ -69,10 +66,39 @@ li {
   flex-wrap: wrap;
   flex-direction: column;
   margin-right: 50px;
+  gap: 10px;
 }
 
 .left-side button {
   width: 100px;
   background-color: #3882F6;
   color: #F9FAF8;
+  border-radius: 5px;
+  padding: 5px;
+  border: 0;
+}
+
+.section-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.boxes {
+  display: flex;
+}
+
+.footer {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
 }
