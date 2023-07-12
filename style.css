@@ -142,6 +142,44 @@ li {
   justify-content: flex-end;
 }
 
+.call-to-action {
+  display: flex;
+  background-color: #3882F6;
+  margin: 100px 250px;
+  border-radius: 10px;
+  padding: 50px 0;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+}
+
+.section-four .left-side {
+  margin: 0;
+}
+
+.main {
+  font-weight: bold;
+  color: #E5E7EB;
+}
+
+.section-four .subtext {
+  font-size: 15px;
+  font-weight: lighter;
+  color: #E5E7EB;
+}
+
+.section-four button {
+  background-color: #3882F6;
+  color:#E5E7EB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  width: 100px;
+  border: 3px solid white;
+  border-radius: 8px;
+}
+
 .footer {
   background-color: #1F2937;
   color: #F9FAF8;
